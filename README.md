@@ -48,7 +48,7 @@ To get started quickly - please refer :
 ## CuTe DSL
 * New features
   - New Block API `block_copy()` to simplify TMA and S2T copy. Users can ignore detail about multicast and 2CTA partition for TMA by `block_copy()` and need not to invoke `tma_partition()`. And users can remove bulk of S2T initialization to simplify S2T copy.
-  - MXF8F6F4 mixed precision supoort
+  - MXF8F6F4 mixed precision support
     - BlockScaled MMA now supports MXF8*MXF4 or MXF8*MXF6
   - Block Scaled MMA for SM120 now works on Spark
   - EFC broadcast semantics support
